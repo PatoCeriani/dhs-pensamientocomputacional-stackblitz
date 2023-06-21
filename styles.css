@@ -1,0 +1,168 @@
+/* font-family: 'Londrina Solid', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Shadows Into Light Two', cursive; */
+
+body {
+  margin: 0;
+}
+
+.cabecera {
+  display: grid;
+  margin: 0;
+}
+
+.ligrid {
+  display: grid;
+}
+
+.cabecera img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cablist {
+  background-color: #adc22e;
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: 100px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  list-style: none;
+}
+
+.cabeceratext {
+  color: black;
+  justify-content: left;
+  align-items: center;
+  padding-left: 15px;
+  font-family: "Londrina Solid", cursive;
+  font-size: 50px;
+}
+
+.navegacion {
+  display: grid;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.navlist {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+  grid-template-rows: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.navnaranja {
+  background-color: #ff9900;
+  font-family: "Londrina Solid", cursive;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.navceleste {
+  background-color: #69b9b2;
+  font-family: "Londrina Solid", cursive;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.definicion {
+  background-color: #ecffa8;
+  padding-top: 15px;
+  margin: 0;
+}
+
+h2 {
+  background-color: #576166;
+  padding: 15px;
+  margin: 0;
+  color: white;
+  font-weight: normal;
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+}
+
+.pgeneral {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.resaltado {
+  background-color: #ffff00;
+  font-weight: bolder;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.imggeneral {
+  width: 100%;
+  height: 100%;
+}
+.pie {
+  display: grid;
+  margin: 0;
+  background-color: #adc22e;
+}
+.ppie {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+.formulario {
+  margin: 0;
+  padding: 15px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+fieldset {
+  /* border: 1px solid white; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.felemento {
+  margin-bottom: 10px;
+}
+
+.boton{
+    background-color: #ff9900;
+    border: none;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    margin: 5px;
+}

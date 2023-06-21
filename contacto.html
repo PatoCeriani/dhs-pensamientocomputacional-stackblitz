@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contacto | Pensamiento Computacional</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&family=Montserrat&family=Shadows+Into+Light+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="cabecera">
+        <ol class="cablist">
+          <li class="ligrid">
+            <img
+              src="https://i.ibb.co/mCwQZM4/logolight-01.png"
+              alt="Lamparita"
+            />
+          </li>
+          <li class="cabeceratext">El pensamiento computacional</li>
+        </ol>
+      </div>
+
+      <div class="navegacion">
+        <ol class="navlist">
+          <li class="ligrid">
+            <a href="index.html"
+              ><img src="https://i.ibb.co/F6p5QhG/home.png" alt="Home Ícono"
+            /></a>
+          </li>
+          <li class="navnaranja">
+            <a href="descomposicion.html">Descomposición</a>
+          </li>
+          <li class="navceleste"><a href="abstraccion.html">Abstracción</a></li>
+          <li class="navnaranja"><a href="patrones.html">Patrones</a></li>
+          <li class="navceleste"><a href="algoritmos.html">Algoritmos</a></li>
+          <li class="navicono">
+            <a href="contacto.html"
+              ><img
+                src="https://i.ibb.co/qYgJN93/contact.png"
+                alt="Contact Ícono"
+            /></a>
+          </li>
+        </ol>
+      </div>
+    </header>
+    <main>
+      <h2>Contactate conmigo</h2>
+      <div class="formulario">
+        <form>
+          <fieldset>
+            <legend><span class="bold">Datos personales</span></legend>
+            <div class="felemento">
+              <label>Nombre y apellido</label>
+              <input type="text" placeholder="Juan Pérez" required />
+            </div>
+            <div class="felemento">
+              <label>Correo electrónico</label>
+              <input type="email" placeholder="tumail@proveedor.com" required />
+            </div>
+            <div class="felemento">
+              <label>Género</label><br/ >
+              <input
+                type="radio"
+                id="Masculino"
+                name="gender"
+                value="Masculino"
+              />
+              <label for="Masculino">Masculino</label>
+              <input
+                type="radio"
+                id="Femenino"
+                name="gender"
+                value="Femenino"
+              />
+              <label for="Femenino">Femenino</label>
+              <input type="radio" id="Otro" name="gender" value="Otro" />
+              <label for="Otro">Otro</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="bold">Otra información</span></legend>
+            <div class="felemento">
+              <input
+                type="radio"
+                id="Docente"
+                name="ocupacion"
+                value="Docente"
+              />
+              <label for="Docente">Docente</label>
+              <input
+                type="radio"
+                id="Estudiante"
+                name="ocupacion"
+                value="Estudiante"
+              />
+              <label for="Estudiante">Estudiante</label>
+              <input type="radio" id="Otro" name="ocupacion" value="Otro" />
+              <label for="Otro">Otro</label>
+            </div>
+            <div class="felemento">
+              <label>¿Cómo llegaste al sitio?</label>
+              <textarea></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="bold">Tu mensaje</span></legend>
+            <textarea></textarea>
+          </fieldset>
+          <div></div>
+          <button class="boton" onclick="validar()">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="pie">
+        <p class="ppie">
+          Artículo realizado por
+          <a href="mailto:pceriani@gmail.com">Patricia Ceriani</a>, profesora de
+          Educación Tecnológica del
+          <a href="http://www.froebel.edu.ar/"
+            >Instituto Federico Guillermo Froebel</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
